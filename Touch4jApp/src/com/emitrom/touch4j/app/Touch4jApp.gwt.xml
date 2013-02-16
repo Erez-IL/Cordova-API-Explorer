@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module rename-to='touch4japp'>
+  <inherits name='com.emitrom.touch4j.Touch4j' />
+  <inherits name='com.emitrom.platform.device.Device' />
+  <inherits name='com.emitrom.touch4j.charts.Charts'/>
+  
+ 
+   <entry-point class='com.emitrom.touch4j.app.client.Touch4jApp' />
+	
+    <set-property name="user.agent" value="safari" />
+  
+
+  <!-- Specify the paths for translatable code                    -->
+  <source path='client'/>
+  <source path='shared'/>
+
+</module>
